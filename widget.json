@@ -1,0 +1,59 @@
+
+{
+  "privileges": {
+    "type": "dropdown",
+    "label": "Who can participate:",
+    "value": "everybody",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "globalCooldown": {
+    "type": "number",
+    "label": "Global Cooldown (s)",
+    "min": 0,
+    "max": 86400,
+    "step": 1
+  },
+  "userCooldown": {
+    "type": "number",
+    "label": "User Cooldown (s)",
+    "min": 0,
+    "max": 86400,
+    "step": 1
+  },
+  "animationDuration": {
+    "type": "number",
+    "label": "Animation Duration (s)",
+    "min": 1,
+    "max": 600,
+    "step": 0.001
+  },
+  "animationWidth": {
+    "type": "number",
+    "label": "Animation Width (px)",
+    "min": 0,
+    "step": 1
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Yugioh Cards"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "SpookyBlump"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "0.1"
+  },
+  "widgetUpdateUrl": {
+    "type": "hidden",
+    "value": "https://github.com/rbscharf93"
+  }
+}
