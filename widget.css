@@ -1,0 +1,19 @@
+body, body * {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+},
+
+#main-container {
+  width: {{animationWidth}};
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
